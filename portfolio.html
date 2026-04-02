@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mian Tuaha Afzal — MERN Stack Developer</title>
+  <meta name="description"
+    content="Portfolio of Mian Tuaha Afzal, a passionate MERN Stack Developer from Faisalabad, Pakistan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <span id="loader-num">000</span>
+    <div class="loader-bar">
+      <div class="loader-fill" id="loaderFill"></div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-logo">TuahaAfzal</div>
+    <div class="nav-center" id="navTime">Pakistan · PKT</div>
+    <div class="nav-right">
+      <a href="#contact" class="nav-connect">Let's Connect</a>
+      <a href="#" class="nav-resume">Résumé</a>
+      <button id="menuBtn" class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menu Overlay -->
+  <div id="menuOverlay" class="menu-overlay">
+    <button id="menuClose" class="menu-close">✕</button>
+    <nav class="menu-links">
+      <a href="#hero" class="menu-link" data-n="01">HOME</a>
+      <a href="#about" class="menu-link" data-n="02">ABOUT ME</a>
+      <a href="#experience" class="menu-link" data-n="03">EXPERIENCE</a>
+      <a href="#skills" class="menu-link" data-n="04">SKILLS</a>
+      <a href="#certifications" class="menu-link" data-n="05">CERTIFICATIONS</a>
+      <a href="#projects" class="menu-link" data-n="06">PROJECTS</a>
+      <a href="#contact" class="menu-link" data-n="07">CONNECT</a>
+    </nav>
+    <div class="menu-socials">
+      <a href="https://www.linkedin.com/in/tuaha-afzal-3883912a3/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/MIAN397" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/tuahaafzal/" target="_blank">Instagram</a>
+      <a href="https://x.com/Tuaha885043" target="_blank">X / Twitter</a>
+      <a href="mailto:tuahaafzal5@gmail.com">Email</a>
+    </div>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-tag reveal-hero-1">Hello, I'm</p>
+      <h1 class="hero-title">
+        <span class="hero-line reveal-hero-2">MIAN TUAHA</span>
+        <span class="hero-line italic reveal-hero-3">AFZAL</span>
+      </h1>
+      <div class="hero-bottom reveal-hero-4">
+        <p class="hero-role">MERN Stack Developer &amp; Game Dev Intern</p>
+        <div class="hero-scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-orb"></div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="about-wrap">
+      <div class="about-left reveal">
+        <p class="section-label">— About Me</p>
+        <h2 class="section-title">I Build Things<br><em>for the Web</em></h2>
+        <div class="avatar">TA</div>
+      </div>
+      <div class="about-right reveal reveal-delay-2">
+        <div class="about-bio">
+          <p>I'm <strong>Mian Tuaha Afzal</strong>, a passionate MERN Stack Developer from Faisalabad, Pakistan,
+            dedicated to enhancing my skills and solving real-world problems through code.</p>
+          <p>Currently studying at the University of Agriculture, Faisalabad, while gaining hands-on experience as a
+            Game Developer intern at Harpy Studio and freelancing on web front-end projects via Fiverr.</p>
+        </div>
+        <div class="about-details">
+          <div class="detail-row"><span class="dl">Date of Birth</span><span class="dv">01 January, 2006</span></div>
+          <div class="detail-row"><span class="dl">Nationality</span><span class="dv">Pakistani 🇵🇰</span></div>
+          <div class="detail-row"><span class="dl">Location</span><span class="dv">Faisalabad, Punjab, Pakistan</span>
+          </div>
+          <div class="detail-row"><span class="dl">Education</span><span class="dv">University of Agriculture,
+              Faisalabad</span></div>
+          <div class="detail-row"><span class="dl">Status</span><span class="dv">🟢 Open to Work</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section id="experience" class="section-dark-bg">
+    <p class="section-label reveal">— Experience</p>
+    <h2 class="section-title reveal">My Professional<br><em>Journey</em></h2>
+    <div class="exp-list">
+      <div class="exp-card reveal">
+        <div class="exp-info">
+          <h3 class="exp-role">Game Developer</h3>
+          <p class="exp-company">Harpy Studio</p>
+          <span class="exp-badge">Internship · On-site</span>
+          <p class="exp-meta">Aug 2025 – Present · 9 mos · Lahore, Punjab, Pakistan</p>
+        </div>
+        <div class="exp-side">
+          <div class="exp-logo">HS</div>
+          <div class="exp-tags">
+            <span>Unity</span><span>C#</span><span>Game Dev</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-2">
+        <div class="exp-info">
+          <h3 class="exp-role">Freelance Programmer</h3>
+          <p class="exp-company">Fiverr</p>
+          <span class="exp-badge">Part-time · Remote</span>
+          <p class="exp-meta">Nov 2024 – Present · 1 yr 6 mos</p>
+          <p class="exp-desc">Freelancing for web front-end development.</p>
+        </div>
+        <div class="exp-side">
+          <div class="exp-logo green">Fi</div>
+          <div class="exp-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <p class="section-label reveal">— Skills &amp; Tech</p>
+    <h2 class="section-title reveal">What I Work<br><em>With</em></h2>
+    <div class="skills-grid">
+      <div class="skill-cat reveal">
+        <h4>MERN Stack</h4>
+        <ul>
+          <li>MongoDB</li>
+          <li>Express.js</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="skill-cat reveal reveal-delay-1">
+        <h4>Languages</h4>
+        <ul>
+          <li>JavaScript</li>
+          <li>C#</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+      <div class="skill-cat reveal reveal-delay-2">
+        <h4>Tools &amp; Platforms</h4>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>Unity</li>
+          <li>VS Code</li>
+          <li>Fiverr</li>
+        </ul>
+      </div>
+      <div class="skill-cat reveal reveal-delay-3">
+        <h4>Digital Marketing</h4>
+        <ul>
+          <li>SEO</li>
+          <li>Digital Marketing</li>
+          <li>Content Strategy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section id="certifications" class="section-invert">
+    <p class="section-label reveal">— Certifications</p>
+    <h2 class="section-title reveal">Licenses &amp;<br><em>Credentials</em></h2>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <span class="cert-badge-pill">SEO</span>
+        <p class="cert-issuer">DigiSkills.pk</p>
+        <h3 class="cert-name">Advanced Search Engine Optimization</h3>
+        <p class="cert-date">Issued Mar 2026</p>
+        <p class="cert-id">ID: 3YY6WECMK</p>
+      </div>
+      <div class="cert-card reveal reveal-delay-2">
+        <span class="cert-badge-pill">Marketing</span>
+        <p class="cert-issuer">DigiSkills.pk</p>
+        <h3 class="cert-name">IAB Digital Marketing &amp; Media Foundations</h3>
+        <p class="cert-date">Issued Mar 2026</p>
+        <p class="cert-id">ID: XYA39BNMK</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section-dark-bg">
+    <p class="section-label reveal">— Projects</p>
+    <h2 class="section-title reveal">Featured<br><em>Work</em></h2>
+    <div class="cs-wrap reveal">
+      <div class="cs-card">
+        <div class="cs-icon">🚀</div>
+        <h3>Projects Coming Soon</h3>
+        <p>Exciting projects are in the works. They'll be featured here once complete. Stay tuned!</p>
+        <a href="https://github.com/MIAN397" target="_blank" class="btn-primary">View GitHub</a>
+      </div>
+    </div>
+    <!-- HOW TO ADD PROJECTS: Duplicate the .project-card div below and fill in your details -->
+    <!--
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="proj-img">PROJECT IMAGE</div>
+        <h3 class="proj-name">Project Name</h3>
+        <p class="proj-desc">Short description of the project.</p>
+        <div class="proj-tags"><span>React</span><span>Node.js</span></div>
+        <div class="proj-links">
+          <a href="GITHUB_LINK" target="_blank">GitHub</a>
+          <a href="LIVE_LINK" target="_blank">Live →</a>
+        </div>
+      </div>
+    </div>
+    -->
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <p class="section-label reveal">— Contact</p>
+    <h2 class="section-title big reveal">CONNECT<br>WITH ME</h2>
+    <div class="contact-wrap">
+      <div class="contact-left reveal">
+        <p class="contact-intro">Got an idea, project, or just want to say hi? I'm always open to collaborations,
+          freelance work, or just nerding out about tech!</p>
+        <!-- Toast notification -->
+        <div id="formToast" class="form-toast" role="alert"></div>
+
+        <form id="contactForm">
+          <!-- Web3Forms hidden fields -->
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
+          <input type="hidden" name="subject" value="New Portfolio Message from Tuaha's Portfolio" />
+          <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+          <input type="hidden" name="redirect" value="false" />
+
+          <div class="form-row">
+            <div class="fg"><label>Name</label><input id="cName" name="name" type="text" placeholder="Your name" required /></div>
+            <div class="fg"><label>Email</label><input id="cEmail" name="email" type="email" placeholder="Your email" required /></div>
+          </div>
+          <div class="fg"><label>Message</label><textarea id="cMsg" name="message" placeholder="Your message..." required></textarea></div>
+          <div class="form-actions">
+            <button type="submit" id="submitBtn" class="btn-primary">Send Message</button>
+            <a href="mailto:tuahaafzal5@gmail.com" class="btn-secondary">Email Me</a>
+          </div>
+        </form>
+      </div>
+      <div class="contact-right reveal reveal-delay-2">
+        <p>I'm excited to connect with people who share a passion for technology and innovation. Let's build something
+          amazing together!</p>
+        <div class="socials">
+          <a href="mailto:tuahaafzal5@gmail.com" class="soc-item">
+            <span class="soc-icon">✉</span>
+            <div><small>Email</small><strong>tuahaafzal5@gmail.com</strong></div>
+          </a>
+          <a href="https://www.linkedin.com/in/tuaha-afzal-3883912a3/" target="_blank" class="soc-item">
+            <span class="soc-icon">in</span>
+            <div><small>LinkedIn</small><strong>Tuaha Afzal</strong></div>
+          </a>
+          <a href="https://github.com/MIAN397" target="_blank" class="soc-item">
+            <span class="soc-icon">⌥</span>
+            <div><small>GitHub</small><strong>MIAN397</strong></div>
+          </a>
+          <a href="https://www.instagram.com/tuahaafzal/" target="_blank" class="soc-item">
+            <span class="soc-icon" style="background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);">&#9768;</span>
+            <div><small>Instagram</small><strong>@tuahaafzal</strong></div>
+          </a>
+          <a href="https://x.com/Tuaha885043" target="_blank" class="soc-item">
+            <span class="soc-icon" style="background:#000;">𝕏</span>
+            <div><small>X / Twitter</small><strong>@Tuaha885043</strong></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="foot-name">Mian Tuaha Afzal</p>
+    <a href="mailto:tuahaafzal5@gmail.com" class="foot-email">tuahaafzal5@gmail.com</a>
+    <p class="foot-copy">© 2026 · Crafted with passion from Faisalabad, Pakistan 🇵🇰</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
