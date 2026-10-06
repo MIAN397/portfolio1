@@ -166,31 +166,4 @@ if (form) {
   });
 }
 
-/* =============================================
-   HOW TO ADD PROJECTS LATER
-   =============================================
-   1. Open portfolio.html
-   2. Find the "Projects" section (#projects)
-   3. REPLACE the .cs-wrap div (the "Coming Soon" card) with:
 
-      <div class="project-grid">
-        <div class="project-card reveal">
-          <div class="proj-img">🖥️</div>
-          <h3 class="proj-name">Your Project Name</h3>
-          <p class="proj-desc">A short description of what the project does.</p>
-          <div class="proj-tags">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
-          </div>
-          <div class="proj-links">
-            <a href="https://github.com/MIAN397/your-repo" target="_blank">GitHub</a>
-            <a href="https://your-live-url.com" target="_blank">Live →</a>
-          </div>
-        </div>
-        <!-- Copy the .project-card block above to add more projects -->
-      </div>
-
-   4. Replace the emoji, name, description, tags, and links.
-   5. Save and refresh — done! ✅
-   ============================================= */
